@@ -2820,7 +2820,7 @@ class CAS_Client
      */
 
     /**
-     * This method is used to acces a remote URL.
+     * This method is used to access a remote URL.
      *
      * @param string $url      the URL to access.
      * @param string &$headers an array containing the HTTP header lines of the
