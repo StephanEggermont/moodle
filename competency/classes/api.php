@@ -121,7 +121,7 @@ class api {
     }
 
     /**
-     * Validate if current user has acces to the course_module if hidden.
+     * Validate if current user has access to the course_module if hidden.
      *
      * @param mixed $cmmixed The cm_info class, course module record or its ID.
      * @param bool $throwexception Throw an exception or not.
@@ -151,7 +151,7 @@ class api {
     }
 
     /**
-     * Validate if current user has acces to the course if hidden.
+     * Validate if current user has access to the course if hidden.
      *
      * @param mixed $courseorid The course or it ID.
      * @param bool $throwexception Throw an exception or not.
