@@ -3487,7 +3487,7 @@ class api {
         if (!$uc || !$uc->can_read()) {
             throw new required_capability_exception($context, 'moodle/competency:usercompetencyview', 'nopermissions', '');
         } else if ($uc->get('status') != user_competency::STATUS_WAITING_FOR_REVIEW) {
-            throw new coding_exception('The competency review request can not be canceled at this stage.');
+            throw new coding_exception('The competency review request can not be cancelled at this stage.');
         } else if (!$uc->can_request_review()) {
             throw new required_capability_exception($context, 'moodle/competency:usercompetencyrequestreview', 'nopermissions', '');
         }
